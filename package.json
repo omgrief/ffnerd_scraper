@@ -4,7 +4,8 @@
   "description": "tool for getting data from Fantasy Football Nerds API",
   "main": "src/app.js",
   "scripts": {
-    "test": "npm test"
+    "test": "mocha --recursive test/fvt",
+    "start": "launch webapp start"
   },
   "repository": {
     "type": "git",
@@ -18,10 +19,14 @@
   "homepage": "https://github.com/omgrief/ffnerd_scraper#readme",
   "dependencies": {
     "abacus-debug": "0.0.6-dev.7",
+    "abacus-launcher": "0.0.6-dev.7",
     "abacus-webapp": "0.0.6-dev.7",
     "body-parser": "^1.15.2",
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "lodash": "^4.15.0"
+  },
+  "devDependencies": {
+    "mocha": "^3.0.2"
   }
 }

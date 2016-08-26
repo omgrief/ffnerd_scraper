@@ -1,4 +1,5 @@
 'use strict';
+require('dotenv').config();
 
 if (!process.env.APP_NAME) {
   process.env.APP_NAME = 'ffnerd-scraper';

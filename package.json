@@ -19,6 +19,9 @@
   "dependencies": {
     "abacus-debug": "0.0.6-dev.7",
     "abacus-webapp": "0.0.6-dev.7",
-    "dotenv": "^2.0.0"
+    "body-parser": "^1.15.2",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "lodash": "^4.15.0"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "name": "ffnerd_scraper",
+  "version": "1.0.0",
+  "description": "tool for getting data from Fantasy Football Nerds API",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omgrief/ffnerd_scraper.git"
+  },
+  "author": "Robert Huang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/omgrief/ffnerd_scraper/issues"
+  },
+  "homepage": "https://github.com/omgrief/ffnerd_scraper#readme",
+  "dependencies": {
+    "abacus-debug": "0.0.6-dev.7",
+    "abacus-webapp": "0.0.6-dev.7",
+    "dotenv": "^2.0.0"
+  }
+}
